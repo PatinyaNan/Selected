@@ -1,0 +1,585 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8430169521ED939300DB4B94 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430169421ED939300DB4B94 /* AppDelegate.swift */; };
+		8430169721ED939300DB4B94 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8430169621ED939300DB4B94 /* ViewController.swift */; };
+		8430169A21ED939300DB4B94 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8430169821ED939300DB4B94 /* Main.storyboard */; };
+		8430169C21ED939400DB4B94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8430169B21ED939400DB4B94 /* Assets.xcassets */; };
+		8430169F21ED939400DB4B94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8430169D21ED939400DB4B94 /* LaunchScreen.storyboard */; };
+		843016AA21ED939400DB4B94 /* myFiretAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843016A921ED939400DB4B94 /* myFiretAppTests.swift */; };
+		843016B521ED939400DB4B94 /* myFiretAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843016B421ED939400DB4B94 /* myFiretAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		843016A621ED939400DB4B94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8430168921ED939300DB4B94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8430169021ED939300DB4B94;
+			remoteInfo = myFiretApp;
+		};
+		843016B121ED939400DB4B94 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8430168921ED939300DB4B94 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8430169021ED939300DB4B94;
+			remoteInfo = myFiretApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8430169121ED939300DB4B94 /* myFiretApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = myFiretApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8430169421ED939300DB4B94 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8430169621ED939300DB4B94 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8430169921ED939300DB4B94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8430169B21ED939400DB4B94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8430169E21ED939400DB4B94 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		843016A021ED939400DB4B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843016A521ED939400DB4B94 /* myFiretAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myFiretAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		843016A921ED939400DB4B94 /* myFiretAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFiretAppTests.swift; sourceTree = "<group>"; };
+		843016AB21ED939400DB4B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843016B021ED939400DB4B94 /* myFiretAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = myFiretAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		843016B421ED939400DB4B94 /* myFiretAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myFiretAppUITests.swift; sourceTree = "<group>"; };
+		843016B621ED939400DB4B94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8430168E21ED939300DB4B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843016A221ED939400DB4B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843016AD21ED939400DB4B94 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8430168821ED939300DB4B94 = {
+			isa = PBXGroup;
+			children = (
+				8430169321ED939300DB4B94 /* myFiretApp */,
+				843016A821ED939400DB4B94 /* myFiretAppTests */,
+				843016B321ED939400DB4B94 /* myFiretAppUITests */,
+				8430169221ED939300DB4B94 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8430169221ED939300DB4B94 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8430169121ED939300DB4B94 /* myFiretApp.app */,
+				843016A521ED939400DB4B94 /* myFiretAppTests.xctest */,
+				843016B021ED939400DB4B94 /* myFiretAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8430169321ED939300DB4B94 /* myFiretApp */ = {
+			isa = PBXGroup;
+			children = (
+				8430169421ED939300DB4B94 /* AppDelegate.swift */,
+				8430169621ED939300DB4B94 /* ViewController.swift */,
+				8430169821ED939300DB4B94 /* Main.storyboard */,
+				8430169B21ED939400DB4B94 /* Assets.xcassets */,
+				8430169D21ED939400DB4B94 /* LaunchScreen.storyboard */,
+				843016A021ED939400DB4B94 /* Info.plist */,
+			);
+			path = myFiretApp;
+			sourceTree = "<group>";
+		};
+		843016A821ED939400DB4B94 /* myFiretAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				843016A921ED939400DB4B94 /* myFiretAppTests.swift */,
+				843016AB21ED939400DB4B94 /* Info.plist */,
+			);
+			path = myFiretAppTests;
+			sourceTree = "<group>";
+		};
+		843016B321ED939400DB4B94 /* myFiretAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				843016B421ED939400DB4B94 /* myFiretAppUITests.swift */,
+				843016B621ED939400DB4B94 /* Info.plist */,
+			);
+			path = myFiretAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8430169021ED939300DB4B94 /* myFiretApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843016B921ED939400DB4B94 /* Build configuration list for PBXNativeTarget "myFiretApp" */;
+			buildPhases = (
+				8430168D21ED939300DB4B94 /* Sources */,
+				8430168E21ED939300DB4B94 /* Frameworks */,
+				8430168F21ED939300DB4B94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = myFiretApp;
+			productName = myFiretApp;
+			productReference = 8430169121ED939300DB4B94 /* myFiretApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		843016A421ED939400DB4B94 /* myFiretAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843016BC21ED939400DB4B94 /* Build configuration list for PBXNativeTarget "myFiretAppTests" */;
+			buildPhases = (
+				843016A121ED939400DB4B94 /* Sources */,
+				843016A221ED939400DB4B94 /* Frameworks */,
+				843016A321ED939400DB4B94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				843016A721ED939400DB4B94 /* PBXTargetDependency */,
+			);
+			name = myFiretAppTests;
+			productName = myFiretAppTests;
+			productReference = 843016A521ED939400DB4B94 /* myFiretAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		843016AF21ED939400DB4B94 /* myFiretAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843016BF21ED939400DB4B94 /* Build configuration list for PBXNativeTarget "myFiretAppUITests" */;
+			buildPhases = (
+				843016AC21ED939400DB4B94 /* Sources */,
+				843016AD21ED939400DB4B94 /* Frameworks */,
+				843016AE21ED939400DB4B94 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				843016B221ED939400DB4B94 /* PBXTargetDependency */,
+			);
+			name = myFiretAppUITests;
+			productName = myFiretAppUITests;
+			productReference = 843016B021ED939400DB4B94 /* myFiretAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8430168921ED939300DB4B94 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					8430169021ED939300DB4B94 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					843016A421ED939400DB4B94 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8430169021ED939300DB4B94;
+					};
+					843016AF21ED939400DB4B94 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 8430169021ED939300DB4B94;
+					};
+				};
+			};
+			buildConfigurationList = 8430168C21ED939300DB4B94 /* Build configuration list for PBXProject "myFiretApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8430168821ED939300DB4B94;
+			productRefGroup = 8430169221ED939300DB4B94 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8430169021ED939300DB4B94 /* myFiretApp */,
+				843016A421ED939400DB4B94 /* myFiretAppTests */,
+				843016AF21ED939400DB4B94 /* myFiretAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8430168F21ED939300DB4B94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8430169F21ED939400DB4B94 /* LaunchScreen.storyboard in Resources */,
+				8430169C21ED939400DB4B94 /* Assets.xcassets in Resources */,
+				8430169A21ED939300DB4B94 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843016A321ED939400DB4B94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843016AE21ED939400DB4B94 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8430168D21ED939300DB4B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8430169721ED939300DB4B94 /* ViewController.swift in Sources */,
+				8430169521ED939300DB4B94 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843016A121ED939400DB4B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843016AA21ED939400DB4B94 /* myFiretAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843016AC21ED939400DB4B94 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843016B521ED939400DB4B94 /* myFiretAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		843016A721ED939400DB4B94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8430169021ED939300DB4B94 /* myFiretApp */;
+			targetProxy = 843016A621ED939400DB4B94 /* PBXContainerItemProxy */;
+		};
+		843016B221ED939400DB4B94 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8430169021ED939300DB4B94 /* myFiretApp */;
+			targetProxy = 843016B121ED939400DB4B94 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8430169821ED939300DB4B94 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8430169921ED939300DB4B94 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8430169D21ED939400DB4B94 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8430169E21ED939400DB4B94 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		843016B721ED939400DB4B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		843016B821ED939400DB4B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		843016BA21ED939400DB4B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myFiretApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wxyz.myFiretApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		843016BB21ED939400DB4B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myFiretApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wxyz.myFiretApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		843016BD21ED939400DB4B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myFiretAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wxyz.myFiretAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myFiretApp.app/myFiretApp";
+			};
+			name = Debug;
+		};
+		843016BE21ED939400DB4B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myFiretAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wxyz.myFiretAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/myFiretApp.app/myFiretApp";
+			};
+			name = Release;
+		};
+		843016C021ED939400DB4B94 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myFiretAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wxyz.myFiretAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myFiretApp;
+			};
+			name = Debug;
+		};
+		843016C121ED939400DB4B94 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = myFiretAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = wxyz.myFiretAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = myFiretApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8430168C21ED939300DB4B94 /* Build configuration list for PBXProject "myFiretApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843016B721ED939400DB4B94 /* Debug */,
+				843016B821ED939400DB4B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843016B921ED939400DB4B94 /* Build configuration list for PBXNativeTarget "myFiretApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843016BA21ED939400DB4B94 /* Debug */,
+				843016BB21ED939400DB4B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843016BC21ED939400DB4B94 /* Build configuration list for PBXNativeTarget "myFiretAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843016BD21ED939400DB4B94 /* Debug */,
+				843016BE21ED939400DB4B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843016BF21ED939400DB4B94 /* Build configuration list for PBXNativeTarget "myFiretAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843016C021ED939400DB4B94 /* Debug */,
+				843016C121ED939400DB4B94 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8430168921ED939300DB4B94 /* Project object */;
+}
