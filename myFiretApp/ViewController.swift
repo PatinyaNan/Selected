@@ -29,11 +29,12 @@ class ViewController: UIViewController {
             lab.text = "Facebook"
             img.image = #imageLiteral(resourceName: "iconfinder_facebook_circle_color_107175")
         case 1:
-            lab.text = "Line"
-            img.image = #imageLiteral(resourceName: "iconfinder_social-40_1591888")
-        case 2:
             lab.text = "Twitter"
             img.image = #imageLiteral(resourceName: "iconfinder_twitter_834708")
+            
+        case 2:
+            lab.text = "Line"
+            img.image = #imageLiteral(resourceName: "iconfinder_social-40_1591888")
         default:
             lab.text = "Google"
             img.image = #imageLiteral(resourceName: "iconfinder_google_circle_294707")
